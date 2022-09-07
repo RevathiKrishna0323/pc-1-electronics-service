@@ -7,22 +7,22 @@ public class ElectronicListService {
     //add all the electronics items inside the List
     public static List<String> addElectronicsItemsToList(String electronicsItems) {
         List<String> itemList = new ArrayList<>();
-        itemList.add("TV");
-        itemList.add("Computer");
+        itemList.add("computer");
         itemList.add("Refrigerator");
-        itemList.add("TV");
+        itemList.add("smartphone");
+        itemList.add("printer");
+        System.out.println(itemList);
         return itemList;
     }
-
     //search the electronic item from the list and return the index position
     public static int searchElectronicItemInList(List<String> itemList, String searchItem) {
-        List<String> list = new ArrayList<>();
         int index = itemList.indexOf("Refrigerator");
         if (index != -1) {
             System.out.println(index);
         }
         return index;
     }
+
 
     //remove the electronic item from the list using iterator
     public static boolean removeElectronicsItemFromList(List<String> itemList, String removeItem) {
