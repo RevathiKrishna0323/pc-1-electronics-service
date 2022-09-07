@@ -6,11 +6,11 @@ import java.util.List;
 public class ElectronicListService {
     //add all the electronics items inside the List
     public static List<String> addElectronicsItemsToList(String electronicsItems) {
-        List<String> itemList = null;
+        List<String> itemList = new ArrayList<>();
         itemList.add("TV");
         itemList.add("Computer");
         itemList.add("Refrigerator");
-        itemList.add("AC");
+        itemList.add("TV");
         return itemList;
     }
 
