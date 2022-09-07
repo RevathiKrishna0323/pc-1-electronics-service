@@ -1,13 +1,12 @@
 package com.jap;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class ElectronicListService {
     //add all the electronics items inside the List
     public static List<String> addElectronicsItemsToList(String electronicsItems) {
-       List<String> itemList = null;
+        List<String> itemList = null;
         itemList.add("TV");
         itemList.add("Computer");
         itemList.add("Refrigerator");
@@ -26,8 +25,7 @@ public class ElectronicListService {
     }
 
     //remove the electronic item from the list using iterator
-    public static boolean removeElectronicsItemFromList(List<String> itemList, String removeItem)
-    {
+    public static boolean removeElectronicsItemFromList(List<String> itemList, String removeItem) {
         itemList.remove("Refrigerator");
         System.out.println(itemList);
         boolean flag = false;
