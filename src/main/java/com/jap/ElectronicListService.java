@@ -28,6 +28,8 @@ public class ElectronicListService {
     //remove the electronic item from the list using iterator
     public static boolean removeElectronicsItemFromList(List<String> itemList, String removeItem)
     {
+        itemList.remove("Refrigerator");
+        System.out.println(itemList);
         boolean flag = false;
 
         return flag;
