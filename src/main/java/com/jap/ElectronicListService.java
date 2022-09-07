@@ -8,13 +8,19 @@ public class ElectronicListService {
     //add all the electronics items inside the List
     public static List<String> addElectronicsItemsToList(String electronicsItems) {
        List<String> itemList = null;
+        itemList.add("TV");
+        itemList.add("Computer");
+        itemList.add("Refrigerator");
+        itemList.add("AC");
         return itemList;
     }
 
     //search the electronic item from the list and return the index position
     public static int searchElectronicItemInList(List<String> itemList, String searchItem) {
-        return -1;
-    }
+
+            return -1;
+        }
+
 
     //remove the electronic item from the list using iterator
     public static boolean removeElectronicsItemFromList(List<String> itemList, String removeItem)
